@@ -16,7 +16,7 @@ const Footer = () => {
           
           <div className="flex items-center space-x-4">
             <a 
-              href="#" 
+              href="https://github.com/IrhilOussama" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors"
@@ -25,22 +25,13 @@ const Footer = () => {
               <Github size={20} />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/irhiloussama/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-primary transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin size={20} />
-            </a>
-            <a 
-              href="#" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-foreground/70 hover:text-primary transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter size={20} />
             </a>
           </div>
         </div>

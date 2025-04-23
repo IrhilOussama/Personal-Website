@@ -7,7 +7,7 @@ import ProjectsSection from '@/components/sections/ProjectsSection';
 import SkillsSection from '@/components/sections/SkillsSection';
 import ResumeSection from '@/components/sections/ResumeSection';
 import ContactSection from '@/components/sections/ContactSection';
-import BlogSection from '@/components/sections/BlogSection';
+// import BlogSection from '@/components/sections/BlogSection';
 
 const Index = () => {
   const scrollToSection = (id: string) => {
@@ -30,7 +30,7 @@ const Index = () => {
         <SkillsSection />
         <ResumeSection />
         <ContactSection />
-        <BlogSection />
+        {/* <BlogSection /> */}
       </main>
       
       <Footer />

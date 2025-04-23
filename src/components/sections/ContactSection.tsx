@@ -67,7 +67,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="text-base font-semibold">Email</h4>
                   <a href="mailto:your-email@example.com" className="text-muted-foreground hover:text-primary transition-colors">
-                    your-email@example.com
+                    irhiloussama@gmail.com
                   </a>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="text-base font-semibold">Phone</h4>
                   <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                    +1 (234) 567-890
+                    +212 69-09-98-043
                   </a>
                 </div>
               </div>
@@ -90,7 +90,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-base font-semibold">Location</h4>
-                  <p className="text-muted-foreground">Your City, Country</p>
+                  <p className="text-muted-foreground">Casablanca, Morocco</p>
                 </div>
               </div>
             </div>
@@ -98,9 +98,9 @@ const ContactSection = () => {
             <div className="pt-4">
               <h4 className="text-lg font-semibold mb-4">Connect with me</h4>
               <div className="flex space-x-4">
-                {['GitHub', 'LinkedIn', 'Twitter'].map((platform) => (
-                  <Button key={platform} variant="outline" asChild>
-                    <a href="#" target="_blank" rel="noopener noreferrer">{platform}</a>
+                {[['GitHub', 'https://github.com/IrhilOussama'], ['LinkedIn', 'https://www.linkedin.com/in/irhiloussama/']].map((platform) => (
+                  <Button key={platform[0]} variant="outline" asChild>
+                    <a href={platform[1]} target="_blank" rel="noopener noreferrer">{platform[0]}</a>
                   </Button>
                 ))}
               </div>

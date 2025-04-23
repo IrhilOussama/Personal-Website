@@ -76,8 +76,7 @@ const SkillsSection = () => {
           <h3 className="text-2xl font-bold mb-6 font-heading">Other Skills & Interests</h3>
           
           <div className="flex flex-wrap gap-3 justify-center">
-            {["Git", "Docker", "CI/CD", "Agile Methodology", "UI/UX Design", "Mobile Development", 
-              "Testing", "SEO", "Responsive Design", "Performance Optimization"].map((skill, index) => (
+            {["Git", "Mobile Development", "SEO", "Responsive Design", "Performance Optimization"].map((skill, index) => (
               <div 
                 key={index}
                 className="bg-background border border-border rounded-full px-4 py-2 text-sm animate-fade-in"

@@ -15,18 +15,20 @@ interface ProjectProps {
 
 const projects: ProjectProps[] = [
   {
-    title: "Study Resource Website",
-    description: "An SEO-optimized educational platform providing study resources for engineering students. Features resource sharing, community contributions, and search functionality.",
-    imageUrl: "/placeholder.svg",
-    liveUrl: "https://est-fes-genie-informatique.web.app",
-    tags: ["React", "Firebase", "SEO", "JavaScript"]
-  },
-  {
     title: "AI-Powered E-commerce Platform",
     description: "An innovative e-commerce platform leveraging AI for product recommendations, search optimization, and personalized shopping experiences.",
-    imageUrl: "/placeholder.svg",
+    imageUrl: "/projects/1.png",
     liveUrl: "https://so9lik.vercel.app",
-    tags: ["Next.js", "AI", "Tailwind CSS", "E-commerce"]
+    tags: ["Next.js", "AI", "Tailwind CSS", "E-commerce"],
+    githubUrl: 'https://github.com/IrhilOussama/ai-powered-ecomerce'
+  },
+  {
+    title: "Study Resource Website",
+    description: "An SEO-optimized educational platform providing study resources for engineering students. Features resource sharing, community contributions, and search functionality.",
+    imageUrl: "/projects/2.png",
+    liveUrl: "https://est-fes-genie-informatique.web.app",
+    tags: ["React", "Firebase", "SEO", "JavaScript"],
+    githubUrl: 'https://github.com/IrhilOussama/est-fes-genie-informatique'
   },
   {
     title: "Stock Management Flutter App",
@@ -35,10 +37,25 @@ const projects: ProjectProps[] = [
     tags: ["Flutter", "Dart", "API Integration", "Mobile"]
   },
   {
-    title: "API Integration Application",
-    description: "Flutter application showcasing seamless integration with multiple third-party APIs, featuring data visualization and cross-platform compatibility.",
+    title: "Printer Management – Centralized Web Application",
+    description: "A user-friendly web application for efficiently managing printers, toners, users, and departments within an organization. Built with React.js, Tailwind CSS, PHP, and SQL, it offers smooth CRUD operations, a modern interface, and streamlined navigation for optimal usability and productivity.",
+    imageUrl: "/projects/3.png",
+    tags: ["React", "PHP", "MVC", "MySQL", "TailwindCSS", "HTML", "API"],
+    githubUrl: "https://github.com/IrhilOussama/Systeme-de-gestion-des-imprimantes"
+  },
+  {
+    title: "Moroccan Dishes – Culinary Showcase with Firebase Integration",
+    description: "A visually rich website featuring traditional Moroccan dishes, created as a learning project to explore and integrate Firebase services, especially Firebase Storage for managing and displaying images.",
+    imageUrl: "/projects/3.png",
+    tags: ["Nextjs", "React", "Firebase", "TailwindCSS", "API"],
+    githubUrl: "https://github.com/IrhilOussama/moroccan-kitchen"
+  },
+  {
+    title: "Blogging Progressive Web App With Laravel",
+    description: "A mobile-first blog platform built with Next.js, React, TailwindCSS, and Material UI for a modern and responsive frontend. The backend is powered by Laravel.",
     imageUrl: "/placeholder.svg",
-    tags: ["Flutter", "APIs", "Data Visualization", "Cross-platform"]
+    tags: ["Nextjs", "Material UI", "PWA", "React", "Laravel", "PHP", "MySQL"],
+    githubUrl: "https://github.com/IrhilOussama/blogs-web-app"
   }
 ];
 

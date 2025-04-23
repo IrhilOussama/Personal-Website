@@ -53,7 +53,11 @@ const HeroSection = ({ scrollToSection }: HeroSectionProps) => {
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 via-background to-accent/20 animate-pulse" style={{ animationDuration: '8s' }}></div>
               <div className="h-full w-full rounded-full bg-background/80 backdrop-blur-sm flex items-center justify-center overflow-hidden">
                 {/* Insert profile image here if available */}
-                <div className="text-6xl font-bold text-primary opacity-80">FSD</div>
+                <div className="">
+                  
+                  <div className="bg-primary absolute left-0 top-0 w-full h-full opacity-5"></div>
+                  <img src="/profile.jpg" alt="profile image" />
+                </div>
               </div>
             </div>
           </div>
